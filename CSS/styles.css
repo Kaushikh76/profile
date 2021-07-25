@@ -45,7 +45,7 @@ h3 {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted #FFD5CD 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
@@ -67,7 +67,7 @@ hr {
 }
 
 .skill-row {
-  width: 50%;
+  width: 60%;
   margin: 100px auto 10% auto;
   text-align: left;
   line-height: 2;
@@ -75,8 +75,8 @@ hr {
 }
 
 .top-cloud {
-  position: absolute;
-  right: 300px;
+  position: relative;
+  left: 300px;
   top: 50px;
 }
 
@@ -105,7 +105,7 @@ hr {
 }
 
 .skill{
-  margin: 20PX auto 0 auto ;
+  margin: 20px auto 0 auto ;
 }
 
 .intro {
@@ -113,5 +113,8 @@ hr {
   margin: auto;
 }
 
+.profile {
+  margin-top: 70px;
+}
 
 
