@@ -1,46 +1,77 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+
+}
+
+p {
+  color: #40514E;
+  font-family: alegreya, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 2;
 }
 
 h1 {
   color: #66BFBF;
-  font-family: 'Sacramento', cursive;
-  margin: 50px auto 0 auto;
-  font-size: 5.12rem;
+  font-family: pacifico, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin: 0 auto 0 auto;
+  font-size: 5.65rem;
+  height: 250px;
 
 }
 
 h2 {
-  margin: 0;
+  margin: 20px;
   color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 2.5rem;
+  padding-bottom: 10px;
 
 
 }
 
 h3 {
   color: #11999E;
-  font-family: 'Montserrat', sans-serif;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 .top {
   background-color: #E4F9F5;
-  position: relative;
-  padding-top: 100px;
+
+  padding-top: 30px;
 }
 
 .middle-container {
-  background-color: #F9F9F9;
+  margin: 50px auto 100px auto;
 }
 
-.bottom-container {
-  background-color: #E4F9F5;
-}
+.bottom-container {}
 
 .pro {
   text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 10% auto;
+  text-align: left;
+  line-height: 2;
+
 }
 
 .top-cloud {
@@ -54,4 +85,33 @@ h3 {
   left: 300px;
   bottom: 300px;
 }
+
+.sub {
+  margin-bottom: 50px;
+}
+
+.python{
+  float: left;
+}
+
+.wd{
+  float: right;
+  margin-left: 20px;
+}
+
+.sql {
+  float: left;
+
+}
+
+.skill{
+  margin: 20PX auto 0 auto ;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+
 
